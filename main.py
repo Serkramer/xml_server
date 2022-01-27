@@ -8,7 +8,6 @@ app = Flask(__name__)
 server = "http://192.168.11.190:8892"
 server_auth = "http://192.168.11.190:8890"
 
-
 def createXML(filename, answer, answer2):
     root = xml_xml.Element("data")
 
